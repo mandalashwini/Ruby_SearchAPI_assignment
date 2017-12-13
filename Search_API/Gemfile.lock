@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.1.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    concurrent-ruby (1.0.5)
+    domainatrix (0.0.11)
+      addressable
+    google_custom_search_api (2.0.0)
+      addressable
+      httparty
+    httparty (0.15.6)
+      multi_xml (>= 0.5.2)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.10.3)
+    multi_xml (0.6.0)
+    public_suffix (3.0.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
+    whois (4.0.5)
+    whois-parser (1.0.1)
+      activesupport (>= 4)
+      whois (>= 4.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  domainatrix
+  google_custom_search_api
+  whois
+  whois-parser
+
+BUNDLED WITH
+   1.16.0
